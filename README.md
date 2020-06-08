@@ -17,14 +17,14 @@ Both players have a set of 20 thin pieces (like coins); each of them uses a diff
 The board is empty at the start of the game. GUI is already implement, you need to implement only Alpha beta function.
 3. Implement K-Means algorithm on a dataset that holds a diagnosis for the eyes of patients.
 • The diagnosis is based on the following features:
-  1. Age: (0) young, (1) adult.
-  2. Prescription: (0) myope, (1) hypermetrope.
-  3. Astigmatic: (0) no, (1) yes.
-  4. Tear production rate: (0) normal, (1) reduced.
+  Age: (0) young, (1) adult.
+  Prescription: (0) myope, (1) hypermetrope.
+  Astigmatic: (0) no, (1) yes.
+  Tear production rate: (0) normal, (1) reduced.
 • The output classes are:
-  1. Need contact lenses (1): the patient should be fitted with a special type of contact lenses.
-  2. No contact lenses (0): the patient should not be fitted with a
-  3. Special type of contact lenses.
+  Need contact lenses (1): the patient should be fitted with a special type of contact lenses.
+  No contact lenses (0): the patient should not be fitted with a
+  Special type of contact lenses.
 • Dataset Sample:
 • The Number of max iterations = 100
 • Instead of using random centroids use the first k items from the training set
