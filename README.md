@@ -1,4 +1,3 @@
-Algorithm (1)
 1. In this project, you are expected to solve a 2-D maze using DFS. A maze is path typically from start node ‘S’ to Goal node ‘E’.
 Input: 2D maze represented as a string.
 Output: the full path from Start node to End node (Goal Node), direct path to go from Start to End directly.
@@ -18,18 +17,18 @@ Both players have a set of 20 thin pieces (like coins); each of them uses a diff
 The board is empty at the start of the game. GUI is already implement, you need to implement only Alpha beta function.
 3. Implement K-Means algorithm on a dataset that holds a diagnosis for the eyes of patients.
 • The diagnosis is based on the following features:
-1. Age: (0) young, (1) adult.
-2. Prescription: (0) myope, (1) hypermetrope.
-3. Astigmatic: (0) no, (1) yes.
-4. Tear production rate: (0) normal, (1) reduced.
+  1. Age: (0) young, (1) adult.
+  2. Prescription: (0) myope, (1) hypermetrope.
+  3. Astigmatic: (0) no, (1) yes.
+  4. Tear production rate: (0) normal, (1) reduced.
 • The output classes are:
-1. Need contact lenses (1): the patient should be fitted with a special type of contact lenses.
-2. No contact lenses (0): the patient should not be fitted with a
-3. Special type of contact lenses.
+  1. Need contact lenses (1): the patient should be fitted with a special type of contact lenses.
+  2. No contact lenses (0): the patient should not be fitted with a
+  3. Special type of contact lenses.
 • Dataset Sample:
 • The Number of max iterations = 100
 • Instead of using random centroids use the first k items from the training set
 • Calculate the distance once using Manhattan and once using Euclidean
-1. Euclidean: Take the square root of the sum of the squares of the differences of the coordinates. o For example, if x = (a, b) and y=(c, d) , the Euclidean distance between x and y is
-2. Manhattan: Take the sum of the absolute values of the differences of the coordinates. o For example, if x = (a, b) and y=(c, d) , the Euclidean distance between x and y is
+  1. Euclidean: Take the square root of the sum of the squares of the differences of the coordinates. o For example, if x = (a, b) and    y=(c, d) , the Euclidean distance between x and y is
+  2. Manhattan: Take the sum of the absolute values of the differences of the coordinates. o For example, if x = (a, b) and y=(c, d) , the Euclidean distance between x and y is
 The output should be the centroids of the classes using Euclidean and Manhattan distances.
