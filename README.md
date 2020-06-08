@@ -16,7 +16,7 @@ Each column has a hole in the upper part of the board, where pieces are introduc
 There is a window for every square, so that pieces can be seen from both sides.
 Both players have a set of 20 thin pieces (like coins); each of them uses a different color. 
 The board is empty at the start of the game. GUI is already implement, you need to implement only Alpha beta function.
-Implement K-Means algorithm on a dataset that holds a diagnosis for the eyes of patients.
+3. Implement K-Means algorithm on a dataset that holds a diagnosis for the eyes of patients.
 • The diagnosis is based on the following features:
 1. Age: (0) young, (1) adult.
 2. Prescription: (0) myope, (1) hypermetrope.
