@@ -28,7 +28,6 @@ The board is empty at the start of the game. GUI is already implement, you need 
 • Dataset Sample:
 • The Number of max iterations = 100
 • Instead of using random centroids use the first k items from the training set
-• Calculate the distance once using Manhattan and once using Euclidean
-  1. Euclidean: Take the square root of the sum of the squares of the differences of the coordinates. o For example, if x = (a, b) and    y=(c, d) , the Euclidean distance between x and y is
-  2. Manhattan: Take the sum of the absolute values of the differences of the coordinates. o For example, if x = (a, b) and y=(c, d) , the Euclidean distance between x and y is
+• Calculate the distance once using Manhattan and once using EuclideanEuclidean: Take the square root of the sum of the squares of the differences of the coordinates. o For example, if x = (a, b) and    y=(c, d) , the Euclidean distance between x and y is
+Manhattan: Take the sum of the absolute values of the differences of the coordinates. o For example, if x = (a, b) and y=(c, d) , the Euclidean distance between x and y is
 The output should be the centroids of the classes using Euclidean and Manhattan distances.
